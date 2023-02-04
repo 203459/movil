@@ -1,33 +1,44 @@
 
+class OnboardContent {
+  String image;
+  String text;
+  String descripcion;
 
-List<Map<String, String>>contents = [
- {
-      "titulo": "ESPARCIMIENTO",
-      "imagen": "assets/images/B1.png",
-      "descripcion": "Brindamos todos los servicios para consentir a tu mascota"
-    },
-    {
-      "titulo": "ADOPCION",
-      "imagen": "assets/images/B2.png",
-      "descripcion":
-          "Nulla faucibus tellus ut odio scelerisque vitae molestie lectus feugiat."
-    },
-    {
-      "titulo": "HOSPITALIDAD",
-      "imagen": "assets/images/B3.png",
-      "descripcion":
-          "Nulla faucibus tellus ut odio scelerisque vitae molestie lectus feugiat."
-    },
-    {
-      "titulo": "VETERINARIA",
-      "imagen": "assets/images/B4.png",
-      "descripcion":
-          "Nulla faucibus tellus ut odio scelerisque vitae molestie lectus feugiat."
-    },
-    {
-      "titulo": "TIENDA",
-      "imagen": "assets/images/B5.png",
-      "descripcion":
-          "Compra todas las necesidades de tu mascota sin salir de casa"
-    },
-  ];
+  OnboardContent(
+      {required this.image, required this.text, required this.descripcion});
+}
+
+
+
+List<OnboardContent> contents = [
+ OnboardContent(
+    image: "assets/images/B1.png",
+    text: "ESPARCIMIENTO",
+    descripcion:
+        "Sit amet dolor pariatur aliquip irure voluptate et quis proident officia voluptate aute anim. Pariatur pariatur exercitation dolor culpa sint laboris. Consequat aliquip sit deserunt cillum consectetur velit aliqua.",
+  ),
+  OnboardContent(
+    image: "assets/images/B2.png",
+    text: "ADOPCION",
+    descripcion:
+        "Tempor quis laboris nostrud ullamco Lorem sint occaecat excepteur aute. Reprehenderit nulla aute anim exercitation commodo do qui non eiusmod ex est. Nostrud id fugiat magna cupidatat velit mollit aliquip ea. Cillum deserunt adipisicing ex culpa amet esse cillum. Id dolore nisi laborum commodo quis nostrud nisi ut et eu sint elit irure ullamco.",
+  ),
+  OnboardContent(
+    image: "assets/images/B3.png",
+    text: "HOSPITALIDAD",
+    descripcion:
+        "Anim aliqua ut officia veniam deserunt fugiat quis ipsum est deserunt. Est nostrud reprehenderit veniam eu Lorem labore. Eiusmod qui consectetur labore minim aute elit sint cillum culpa sit. Aute tempor velit ullamco ut ut commodo Lorem aliquip veniam do sint. Enim ea minim cupidatat laboris non. Duis in aliqua cupidatat in nisi duis est irure.",
+  ),
+  OnboardContent(
+    image: "assets/images/B4.png",
+    text: "VETERINARIA",
+    descripcion:
+        "Ut laborum amet ipsum culpa incididunt do sint anim aute anim qui in. Amet labore non dolore nisi incididunt est anim do labore officia do fugiat excepteur. Ea sint pariatur eiusmod esse velit culpa labore cillum culpa occaecat. Do id nostrud ullamco qui.",
+  ),
+   OnboardContent(
+    image: "assets/images/B5.png",
+    text: "TIENDA",
+    descripcion:
+        "Ut laborum amet ipsum culpa incididunt do sint anim aute anim qui in. Amet labore non dolore nisi incididunt est anim do labore officia do fugiat excepteur. Ea sint pariatur eiusmod esse velit culpa labore cillum culpa occaecat. Do id nostrud ullamco qui.",
+  ),
+];

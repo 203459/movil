@@ -6,8 +6,12 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Center(child: Text("Hola HOME PAGE")),
+    return const Scaffold(
+      body: Center(child:  Image(
+        image: AssetImage('assets/images/home_page.png'),
+        height: 1500,
+      ),),
+      
     );
   }
 }
