@@ -98,7 +98,7 @@ class _OnboardingPageState extends State<OnboardingPage> {
                       style: TextStyle(
                         color: currentIndex == contents.length - 1
                             ? const Color.fromARGB(255, 255, 255, 255)
-                            : const Color.fromARGB(193, 105, 81, 81),
+                            : Color.fromARGB(193, 101, 18, 18),
                       ),
                     ),
                   ),
